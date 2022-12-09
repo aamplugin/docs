@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&display=swap');
+
+:root {
+    --font-family-fancy: 'Open Sans', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
+    --home-page-width: 980px;
+}
+
+.navbar .nav-item > .nav-link, .dropdown-wrapper .dropdown-title, .dropdown-wrapper .dropdown-subtitle {
+    color: var(--black);
+}
+
+.page-title h1 {
+    font-size: 1.35rem;
+}
+
+.theme-container .page {
+    padding-top: calc(var(--navbar-height) + 20px);
+}
+
+.home.project .hero {
+    margin: 3rem auto;
+}
+
+.home.project .hero img {
+    max-height: 400px;
+    margin: 0 25px
+}
+
+.home.project .hero h1 {
+    max-width: 35rem;
+    font-size: 1.8rem;
+}
+
+.home.project .hero .description {
+    font-size: 1.2rem;
+    color: var(--c-text);
+}
+
+.sidebar > .sidebar-links > li > .sidebar-link {
+    font-size: 1em;
+    line-height: 1.32em;
+}
+
+.hero .description p {
+    line-height: 1.32em;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: var(--c-bg);
+}
+
+a.btn, a.btn:hover, a.btn:active {
+    text-decoration: none !important;
+}
+
+.btn:disabled {
+    opacity: 0.7;
+}
+
+.btn.primary:disabled {
+    background-color: var(--c-danger-text);
+    border-color: var(--c-danger-text);
+    color: var(--c-text-quote);
+}
+
+.btn.primary {
+    color: var(--c-bg);
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    transition: background-color var(--t-color);
+}
+
+.btn.sm {
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+}
+
+.btn.danger {
+    color: var(--c-brand);
+    border-color: var(--c-brand);
+}
+
+.btn.warning {
+    color: var(--c-warning);
+    border-color: var(--c-warning);
+}
+
+.btn.success {
+    color: var(--c-tip);
+    border-color: var(--c-tip);
+}
+
+html.dark {
+    .btn.primary {
+        color: #FFFFFF;
+    }
+}
+
+.theme-container .footer {
+    margin-left: calc(var(--sidebar-width) / 2);
+}
+
+.theme-container.no-sidebar .footer {
+    margin: auto;
+}

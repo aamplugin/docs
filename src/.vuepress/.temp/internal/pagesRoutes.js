@@ -1,0 +1,18 @@
+export const pagesRoutes = [
+  ["v-8daa1a0e","/",{"t":"Project home"},["/index.html","/README.md"]],
+  ["v-d78cd3a0","/question/",{"t":"How to..?"},["/question/index.html","/question/README.md"]],
+  ["v-37fd0bfa","/plugin/advanced-access-manager/",{"t":"Advanced Access Manager"},["/plugin/advanced-access-manager/index.html","/plugin/advanced-access-manager/README.md"]],
+  ["v-41b8d7d0","/plugin/advanced-access-manager/how-to-install",{"t":"How to install"},["/plugin/advanced-access-manager/how-to-install.html","/plugin/advanced-access-manager/how-to-install.md"]],
+  ["v-e6235838","/plugin/premium-complete-package/",{"t":""},["/plugin/premium-complete-package/index.html","/plugin/premium-complete-package/README.md"]],
+  ["v-1afe5f3a","/plugin/protected-media-files/",{"t":""},["/plugin/protected-media-files/index.html","/plugin/protected-media-files/README.md"]],
+  ["v-0f47c106","/question/content/",{"t":"Content"},["/question/content/index.html","/question/content/README.md"]],
+  ["v-12ef4b3f","/question/content/allow-user-to-manage-only-one-post",{"t":"Allows users to manage only one post"},["/question/content/allow-user-to-manage-only-one-post.html","/question/content/allow-user-to-manage-only-one-post.md"]],
+  ["v-ae24c56a","/question/content/switch-between-users-in-wordpress",{"t":"Switch between users in WordPress"},["/question/content/switch-between-users-in-wordpress.html","/question/content/switch-between-users-in-wordpress.md"]],
+  ["v-238d3111","/reference/access-policy/",{"t":""},["/reference/access-policy/index.html","/reference/access-policy/README.md"]],
+  ["v-76cb52e8","/reference/cli/",{"t":""},["/reference/cli/index.html","/reference/cli/README.md"]],
+  ["v-91eb4dec","/reference/dev-api/",{"t":""},["/reference/dev-api/index.html","/reference/dev-api/README.md"]],
+  ["v-68a51c14","/reference/restful-api/",{"t":""},["/reference/restful-api/index.html","/reference/restful-api/README.md"]],
+  ["v-fce1d140","/plugin/advanced-access-manager/ui-overview/",{"t":"UI Overview"},["/plugin/advanced-access-manager/ui-overview/index.html","/plugin/advanced-access-manager/ui-overview/README.md"]],
+  ["v-2636c261","/plugin/advanced-access-manager/ui-overview/current-subject",{"t":"Current Subject"},["/plugin/advanced-access-manager/ui-overview/current-subject.html","/plugin/advanced-access-manager/ui-overview/current-subject.md"]],
+  ["v-3706649a","/404.html",{"t":""},["/404"]],
+]
