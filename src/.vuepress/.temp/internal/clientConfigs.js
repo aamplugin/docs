@@ -6,9 +6,8 @@ import clientConfig4 from '/Volumes/Work/AAM/aamportal/docs/node_modules/@vuepre
 import clientConfig5 from '/Volumes/Work/AAM/aamportal/docs/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from '/Volumes/Work/AAM/aamportal/docs/node_modules/vuepress-plugin-copy-code2/lib/client/config.js'
 import clientConfig7 from '/Volumes/Work/AAM/aamportal/docs/src/.vuepress/.temp/md-enhance/config.js'
-import clientConfig8 from '/Volumes/Work/AAM/aamportal/docs/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
-import clientConfig9 from '/Volumes/Work/AAM/aamportal/docs/src/.vuepress/.temp/pwa2/config.js'
-import clientConfig10 from '/Volumes/Work/AAM/aamportal/docs/src/.vuepress/.temp/theme-hope/config.js'
+import clientConfig8 from '/Volumes/Work/AAM/aamportal/docs/src/.vuepress/.temp/pwa2/config.js'
+import clientConfig9 from '/Volumes/Work/AAM/aamportal/docs/src/.vuepress/.temp/theme-hope/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -21,5 +20,4 @@ export const clientConfigs = [
   clientConfig7,
   clientConfig8,
   clientConfig9,
-  clientConfig10,
 ]

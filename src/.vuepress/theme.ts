@@ -10,8 +10,6 @@ export default hopeTheme({
     url: "https://vasyltech.com",
   },
 
-  iconAssets: "iconfont",
-
   darkmode: "toggle",
 
   pure: true,
@@ -20,7 +18,7 @@ export default hopeTheme({
   logoDark: "/assets/logo/aam-dark.svg",
 
   repo: "aamplugin/docs",
-  editLinkPattern: ":repo/:branch/src/:path",
+  editLinkPattern: ":repo/edit/:branch/src/:path",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
@@ -32,9 +30,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
-
-      displayFooter: true,
+      displayFooter: false,
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
@@ -47,48 +43,32 @@ export default hopeTheme({
       'YouTube'
     ],
 
+    photoSwipe: false,
+    prismjs: false,
+
     // Disable features you don’t want here
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
-      codetabs: true,
+      chart: false,
+      codetabs: false,
       container: true,
-      demo: true,
-      echarts: true,
-      flowchart: true,
-      gfm: true,
+      demo: false,
+      echarts: false,
+      flowchart: false,
+      gfm: false,
       imageLazyload: true,
       imageTitle: true,
       imageSize: false,
-      include: true,
-      katex: true,
+      include: false,
+      katex: false,
       mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
+      mermaid: false,
       sub: true,
       sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
+      tabs: false,
+      vPre: false,
+      vuePlayground: false,
     },
 
     pwa: {
@@ -115,10 +95,5 @@ export default hopeTheme({
         ]
       },
     },
-
-    sitemap: {
-
-    }
-
-  },
+  }
 });

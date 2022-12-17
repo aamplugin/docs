@@ -1,16 +1,30 @@
 ---
-title: How to..?
-index: false
+title: Questions & Answers
+toc: false
+index: true
+comment: false
+pageInfo: false
+contributors: false
+editLink: false
+lastUpdated: false
+prev: false
+next: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id metus eget orci aliquam tincidunt. Ut suscipit lectus id feugiat imperdiet. Duis efficitur lacinia felis, dictum egestas nibh eleifend sit amet. Etiam venenatis lorem sed nunc pulvinar, eget mattis lectus eleifend. Nulla et ultricies nunc, at accumsan massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur non lectus dapibus, aliquet mauris fringilla, ullamcorper lectus. Pellentesque eget tristique tellus. Mauris nec quam ut odio viverra pretium.
+### About this section
 
-## How this section is organized
+It is our ever-growing place for common questions and answers from many AAM users. **Please give your best effort to find the answers here first**, and if you are lost, then do not hesitate to submit [the contact form below](#contact-form).
 
-Quisque tempus facilisis sem, ut dignissim nulla auctor non. Praesent facilisis pellentesque mauris ac auctor. In congue nulla eu nisl dictum, eget sollicitudin mauris fringilla. Quisque ac dolor ultricies, bibendum dolor sit amet, ornare lacus. Etiam auctor, augue vel iaculis dapibus, turpis ex volutpat eros, et vehicula tortor purus nec sem. In venenatis auctor tortor, eu facilisis sem blandit at. Vestibulum venenatis lorem at tellus sagittis auctor. Proin varius commodo euismod. Vestibulum luctus blandit rhoncus. Nunc mattis tortor ut blandit porta. Maecenas feugiat eu sem ac auctor. Vestibulum vitae mauris imperdiet, vehicula nulla in, cursus ipsum. Sed vel orci id elit placerat placerat nec in ante.
+::: tip The rule of thumb
+If you can not find the answer for your question within 10 mins then contact us. As an option, you can also schedule a quick Zoom call [here](https://calendly.com/vasyltech/15min).
+:::
 
-### Content
+### How the Q&A is organized
 
-Quisque tempus facilisis sem, ut dignissim nulla auctor non. Praesent facilisis pellentesque mauris ac auctor. In congue nulla eu nisl dictum, eget sollicitudin mauris fringilla. Quisque ac dolor ultricies, bibendum dolor sit amet, ornare lacus. Etiam auctor, augue vel iaculis dapibus, turpis ex volutpat eros, et vehicula tortor purus nec sem. In venenatis auctor tortor, eu facilisis sem blandit at. Vestibulum venenatis lorem at tellus sagittis auctor. Proin varius commodo euismod. Vestibulum luctus blandit rhoncus. Nunc mattis tortor ut blandit porta. Maecenas feugiat eu sem ac auctor. Vestibulum vitae mauris imperdiet, vehicula nulla in, cursus ipsum. Sed vel orci id elit placerat placerat nec in ante.
+We organized all the questions into groups on the left side (e. g. "Content Access", "Roles & Capabilities", etc.). Intuitively you should be able to guess which group to browse first.
 
-### User Role Management
+If you have no idea where to start, then use the search bar on the top right corner of the page or submit a contact form below.
+
+<hr/>
+
+<ContactForm />

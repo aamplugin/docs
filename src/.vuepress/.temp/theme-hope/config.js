@@ -14,7 +14,6 @@ import { setupSidebarItems } from "@theme-hope/modules/sidebar/composables/index
 
 import "/Volumes/Work/AAM/aamportal/docs/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
-import Slide from "/Volumes/Work/AAM/aamportal/docs/node_modules/vuepress-theme-hope/lib/client/layouts/Slide.js";
 
 
 export default defineClientConfig({
@@ -47,7 +46,6 @@ export default defineClientConfig({
   layouts: {
     Layout,
     NotFound,
-    Slide,
     
   }
 });

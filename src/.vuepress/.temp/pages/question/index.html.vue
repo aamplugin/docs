@@ -1,9 +1,13 @@
-<template><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id metus eget orci aliquam tincidunt. Ut suscipit lectus id feugiat imperdiet. Duis efficitur lacinia felis, dictum egestas nibh eleifend sit amet. Etiam venenatis lorem sed nunc pulvinar, eget mattis lectus eleifend. Nulla et ultricies nunc, at accumsan massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur non lectus dapibus, aliquet mauris fringilla, ullamcorper lectus. Pellentesque eget tristique tellus. Mauris nec quam ut odio viverra pretium.</p>
-<h2 id="how-this-section-is-organized" tabindex="-1"><a class="header-anchor" href="#how-this-section-is-organized" aria-hidden="true">#</a> How this section is organized</h2>
-<p>Quisque tempus facilisis sem, ut dignissim nulla auctor non. Praesent facilisis pellentesque mauris ac auctor. In congue nulla eu nisl dictum, eget sollicitudin mauris fringilla. Quisque ac dolor ultricies, bibendum dolor sit amet, ornare lacus. Etiam auctor, augue vel iaculis dapibus, turpis ex volutpat eros, et vehicula tortor purus nec sem. In venenatis auctor tortor, eu facilisis sem blandit at. Vestibulum venenatis lorem at tellus sagittis auctor. Proin varius commodo euismod. Vestibulum luctus blandit rhoncus. Nunc mattis tortor ut blandit porta. Maecenas feugiat eu sem ac auctor. Vestibulum vitae mauris imperdiet, vehicula nulla in, cursus ipsum. Sed vel orci id elit placerat placerat nec in ante.</p>
-<h3 id="content" tabindex="-1"><a class="header-anchor" href="#content" aria-hidden="true">#</a> Content</h3>
-<p>Quisque tempus facilisis sem, ut dignissim nulla auctor non. Praesent facilisis pellentesque mauris ac auctor. In congue nulla eu nisl dictum, eget sollicitudin mauris fringilla. Quisque ac dolor ultricies, bibendum dolor sit amet, ornare lacus. Etiam auctor, augue vel iaculis dapibus, turpis ex volutpat eros, et vehicula tortor purus nec sem. In venenatis auctor tortor, eu facilisis sem blandit at. Vestibulum venenatis lorem at tellus sagittis auctor. Proin varius commodo euismod. Vestibulum luctus blandit rhoncus. Nunc mattis tortor ut blandit porta. Maecenas feugiat eu sem ac auctor. Vestibulum vitae mauris imperdiet, vehicula nulla in, cursus ipsum. Sed vel orci id elit placerat placerat nec in ante.</p>
-<h3 id="user-role-management" tabindex="-1"><a class="header-anchor" href="#user-role-management" aria-hidden="true">#</a> User Role Management</h3>
-</div></template>
+<template><div><h3 id="about-this-section" tabindex="-1"><a class="header-anchor" href="#about-this-section" aria-hidden="true">#</a> About this section</h3>
+<p>It is our ever-growing place for common questions and answers from many AAM users. <strong>Please give your best effort to find the answers here first</strong>, and if you are lost, then do not hesitate to submit <a href="#contact-form">the contact form below</a>.</p>
+<div class="custom-container tip">
+<p class="custom-container-title">The rule of thumb</p>
+<p>If you can not find the answer for your question within 10 mins then contact us. As an option, you can also schedule a quick Zoom call <a href="https://calendly.com/vasyltech/15min" target="_blank" rel="noopener noreferrer">here<ExternalLinkIcon/></a>.</p>
+</div>
+<h3 id="how-the-q-a-is-organized" tabindex="-1"><a class="header-anchor" href="#how-the-q-a-is-organized" aria-hidden="true">#</a> How the Q&amp;A is organized</h3>
+<p>We organized all the questions into groups on the left side (e. g. &quot;Content Access&quot;, &quot;Roles &amp; Capabilities&quot;, etc.). Intuitively you should be able to guess which group to browse first.</p>
+<p>If you have no idea where to start, then use the search bar on the top right corner of the page or submit a contact form below.</p>
+<hr/>
+<ContactForm /></div></template>
 
 

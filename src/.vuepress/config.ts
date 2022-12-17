@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { getDirname, path } from '@vuepress/utils';
 import cleanUrlPlugin from './plugins/clean-url';
 import theme from "./theme.js";
+import { containerPlugin } from '@vuepress/plugin-container';
 
 const __dirname = getDirname(import.meta.url);
 
@@ -19,7 +20,13 @@ export default defineUserConfig({
     },
 
     plugins: [
-        cleanUrlPlugin({})
+        cleanUrlPlugin({}),
+        containerPlugin({
+            type: 'question'
+        }),
+        containerPlugin({
+            type: 'cart'
+        })
     ]
 
 });

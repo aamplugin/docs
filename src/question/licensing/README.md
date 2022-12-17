@@ -1,4 +1,4 @@
 ---
-title: Content
+title: Licensing
 index: false
 ---

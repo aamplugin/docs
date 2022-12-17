@@ -1,41 +1,10 @@
 <script lang="ts">
-import { usePageFrontmatter } from '@vuepress/client';
-import type { DefaultThemeHomePageFrontmatter } from '@vuepress/theme-default/../shared/index.js';
-import AutoLink from '@vuepress/theme-default/components/AutoLink.vue';
-
 export default {
-  data() {
-    return {
-      frontmatter: usePageFrontmatter<DefaultThemeHomePageFrontmatter>()
-    }
-  },
-  components: {
-    AutoLink
-  },
-  computed: {
-    footer() {
-      return this.frontmatter.footer;
-    }
-  }
 }
 </script>
 
 <template>
   <div class="footer">
-    <ul class="footer-menu">
-      <li>
-        <AutoLink :item="{ link: '/user-agreement', text: 'Terms' }" />
-      </li>
-      <li>&nbsp;|&nbsp;</li>
-      <li>
-        <AutoLink :item="{ link: '/privacy-policy', text: 'Privacy' }" />
-      </li>
-      <li>&nbsp;|&nbsp;</li>
-      <li>
-        <AutoLink :item="{ link: '/support', text: 'Support' }" />
-      </li>
-    </ul>
-
     <p class="copyrights">© 2022 VasylTech LLC. All rights reserved.</p>
   </div>
 </template>
