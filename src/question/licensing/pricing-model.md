@@ -4,7 +4,7 @@ order: 1
 ---
 
 ::: question Question
-The pricing model is a little bit unclear. Can you please clarify how much do I pay and when?
+How does the AAM pricing model works? Can you please clarify how much do I pay and when?
 :::
 
 The premium "Complete Package" adopts unorthodox pricing model. First of all, this is a yearly subscription plan. However, you pay only once the full amount during initial purchase, and all subsequent years a much smaller amount to be able to download new updates. For example, if you pay $99 USD today, then next year, the renewal amount will be only $49 USD.

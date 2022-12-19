@@ -1,1 +1,1 @@
-export const sidebarData = {"/question/":["README.md",{"text":"Content Access","collapsible":true,"prefix":"content-access/","children":["allow-user-to-manage-only-one-post.md"]},{"text":"Licensing","collapsible":true,"prefix":"licensing/","children":["pricing-model.md"]}]};
+export const sidebarData = {"/question/":["README.md",{"text":"Licensing","collapsible":true,"prefix":"licensing/","children":["pricing-model.md","find-license-key.md"]}]};
