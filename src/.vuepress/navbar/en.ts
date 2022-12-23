@@ -16,7 +16,16 @@ export const enNavbar = navbar([
             link: '/question/'
           }
         ]
-      }
+      },
+      {
+        text: 'Plugins',
+        children: [
+          {
+            text: 'Advanced Access Manager',
+            link: '/plugin/advanced-access-manager/'
+          }
+        ]
+      },
     ]
   }
 ]);
