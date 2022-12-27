@@ -1,4 +1,4 @@
 ---
-title: AAM UI
+title: AAM General
 index: false
 ---
