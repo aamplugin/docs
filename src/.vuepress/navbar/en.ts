@@ -26,6 +26,15 @@ export const enNavbar = navbar([
           }
         ]
       },
+      {
+        text: 'Advanced Topics',
+        children: [
+          {
+            text: 'AAM Hooks Reference',
+            link: '/advanced/aam-hooks/'
+          }
+        ]
+      },
     ]
   }
 ]);

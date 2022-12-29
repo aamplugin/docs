@@ -1,6 +1,6 @@
 ---
 home: true
-title: Project home
+title: Home
 heroImage: /assets/aam.svg
 heroText: Absolute WordPress access control, tailored to everyone
 tagline:

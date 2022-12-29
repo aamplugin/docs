@@ -26,7 +26,15 @@ export default defineUserConfig({
         }),
         containerPlugin({
             type: 'cart'
-        })
+        }),
+        containerPlugin({
+            type: 'practice',
+            locales: {
+                '/': {
+                    defaultInfo: 'Try It!'
+                }
+            }
+        }),
     ]
 
 });
