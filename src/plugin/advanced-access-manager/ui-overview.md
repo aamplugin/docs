@@ -65,7 +65,7 @@ AAM is a massive plugin with hundreds of different features in the free version 
 We take the minimalistic approach to the AAM UI, so the _Settings_ page contains the most used settings. We distilled the settings list from the thousands of support questions.
 
 ::: info FYI!
-Way more customizations are available with [ConfigPress](/plugin/advanced-access-manager/configpress) as well as [programmatic hooks](/advanced/aam-hooks/).
+Way more customizations are available with [ConfigPress](/plugin/advanced-access-manager/configpress) as well as [programmatic hooks](/advanced/hooks/).
 :::
 
 All the settings are grouped based on their logical meaning and may vary depending on what services are enabled and add-ons installed. You can find out more about each option in the [Settings](/plugin/advanced-access-manager/setting) section.

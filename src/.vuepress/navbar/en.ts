@@ -30,8 +30,12 @@ export const enNavbar = navbar([
         text: 'Advanced Topics',
         children: [
           {
-            text: 'AAM Hooks Reference',
-            link: '/advanced/aam-hooks/'
+            text: 'Hooks Reference',
+            link: '/advanced/hooks/'
+          },
+          {
+            text: 'RESTful API Reference',
+            link: '/advanced/restful/'
           }
         ]
       },
