@@ -39,9 +39,11 @@ export default hopeTheme({
   },
 
   plugins: {
-    components: [
-      'YouTube'
-    ],
+    components: {
+      components: [
+        'YouTube'
+      ]
+    },
 
     photoSwipe: false,
     prismjs: false,
