@@ -1,7 +1,6 @@
 ---
-title: What is a role?
+title: aam_show_admin_notices
 comment: false
-order: 1
 ---
 
 <UnderDevelopment />

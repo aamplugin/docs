@@ -1,7 +1,6 @@
 ---
-title: What is a role?
+title: Manage access to custom taxonomies
 comment: false
-order: 1
 ---
 
 <UnderDevelopment />
