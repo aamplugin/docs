@@ -1,6 +1,7 @@
 ---
-title: aam_delete_policy
+title: Manage access with UI
 comment: false
+order: 2
 ---
 
 <UnderDevelopment />

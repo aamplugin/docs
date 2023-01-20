@@ -1,6 +1,5 @@
 ---
 title: aam_change_own_password
-comment: false
 ---
 
 This capability is managed by the **Additional Caps** service that is enabled by default in the free AAM version. You can enable or disable this service on the [AAM Settings page](/plugin/advanced-access-manager/ui-overview#settings-page) on the _Services_ tab.

@@ -1,6 +1,7 @@
 ---
-title: aam_manage_addons
+title: Manage access with policies
 comment: false
+order: 3
 ---
 
 <UnderDevelopment />
