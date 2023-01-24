@@ -1,0 +1,21 @@
+{
+  "name": "AAM Portal: Absolute WordPress access control, tailored to everyone",
+  "short_name": "AAM Portal",
+  "description": "AAM portal is no bullcrap, honest place where you can find all you need to know to define a better access strategy for your unique requirements with the help of few free and premium WordPress plugins.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#cf4139",
+  "icons": [
+    {
+      "src": "/assets/icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
