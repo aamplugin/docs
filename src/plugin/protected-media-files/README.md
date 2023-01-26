@@ -10,7 +10,8 @@ It is required to have both plugins installed and activated at all times if you 
 The plugin's only responsibility is to protect your physical files from being accessed by authorized users. It does not modify your files (encrypt in any way or move them to a random folder). It does not change your files' direct URLs either. So if you choose to deactivate and uninstall the plugin, your website will stay intact and fully functioning.
 
 These are just a few facts about the plugin:
-It requires a simple manual step to configure a web server to protect direct access to any folder on your server (typically `/wp-content/uploads`). Check the [Installation](/plugin/protected-media-files/installation) section for detail.
+
+- It requires a simple manual step to configure a web server to protect direct access to any folder on your server (typically `/wp-content/uploads`). Check the [Installation](/plugin/protected-media-files/installation) section for detail.
 
 - It does not change a physical file's location, content, or URL. Upon deactivation, everything goes back to normal.
 

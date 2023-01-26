@@ -1,6 +1,6 @@
 ---
 title: Manage bulk access
-order: 3
+order: 6
 ---
 
 Managing access to individual files one by one may become tedious when you have many files. In this case, you may consider grouping files into a physical directory or with a custom taxonomy. Then you can define access controls to the group, and all related files will inherit those settings. In both cases, you need the premium [Complete Package](/premium) installed on your website.

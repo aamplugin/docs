@@ -1,6 +1,5 @@
 ---
 title: How does licensing work with WP multisite?
-comment: false
 ---
 
 ::: question Question

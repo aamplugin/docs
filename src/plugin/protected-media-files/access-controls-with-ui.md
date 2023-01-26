@@ -1,6 +1,6 @@
 ---
 title: Manage access with UI
-order: 2
+order: 4
 ---
 
 There are two ways to manage direct access to your WordPress files with AAM UI. Both are equally good, and you may choose either or go with a hybrid. It all depends on your website setup and access strategy requirements.

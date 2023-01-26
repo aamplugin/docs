@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting
 comment: false
-order: 7
+order: 9
 ---
 
 <UnderDevelopment />

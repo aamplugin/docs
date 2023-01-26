@@ -1,6 +1,6 @@
 ---
 title: Installation
-order: 1
+order: 3
 ---
 
 ::: info Note!
