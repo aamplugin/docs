@@ -7,6 +7,8 @@ order: 3
 If you do not consider yourself a tech-savvy person, please do not get intimidated by the snippets of the code and screenshots in this section. Just follow the instructions and stay cool. You are just 30 minutes away from accomplishing your objectives. So don't give up.
 :::
 
+<YouTube id="rYK1a1R0Ubs" />
+
 It is important to follow **all the installation steps** as outlined in this section. We've done our best to explain in greater detail every single step and why it is required. Please take your time to read it all through and truly understand what you are doing.
 
 Please also note that the material below focuses on defining access controls to files that are located in the `/wp-content/uploads` directory. However, with the same approach, you can set up any directory on your server.

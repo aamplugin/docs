@@ -18,6 +18,12 @@ It is course for absolute WordPress beginners that talks about core concepts of 
 <a href="/course/wp-role-capability/" class="btn sm primary">Start the Course</a>
 :::
 
+::: cart Ultimate guide to the WordPress JWT authentication
+Learn everything you need to know about JWT in WordPress and how to implement it with AAM to add a new way for user authentication and authorization.
+
+<a href="/course/wp-jwt-authentication/" class="btn sm primary">Start the Course</a>
+:::
+
 ::: cart Enterprise level access managements with Access Policies
 Policy is the revolutionary way to manage access and security for the WordPress websites with well-structured, documented and flexible JSON-based policies. Every defined policy becomes a security artifact that has revisions and can be deployed to any website manually or from our Policy Hub and with WP CLI.
 

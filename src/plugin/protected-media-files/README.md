@@ -17,6 +17,6 @@ These are just a few facts about the plugin:
 
 - It protects any managed by WordPress core file types. For the list of all allowed extensions, check official WP documentation for the [wp_get_ext_types()](https://developer.wordpress.org/reference/functions/wp_get_ext_types/) core function.
 
-- It allows managed access to any media file for visitors, any individual user, and roles or even defines the default access to all media files for everybody (if you have the [premium Complete Package](/premium) installed).
+- It allows to manage access to any media file for visitors, any individual user, and roles or even defines the default access to all media files for everybody (if you have the [premium Complete Package](/premium) installed).
 
 - It offers at least 3 different ways to define access controls to your files. For more information, refer to [Manage access with UI](/plugin/protected-media-files/access-controls-with-ui) and [Manage access with policies](/plugin/protected-media-files/access-controls-with-policy).

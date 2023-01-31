@@ -1,5 +1,5 @@
 ---
-title: Questions & Answers
+title: Q&A
 toc: false
 index: true
 comment: false

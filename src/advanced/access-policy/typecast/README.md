@@ -1,4 +1,7 @@
 ---
 title: Typecasting
-index: false
 ---
+
+#### Syntax
+
+`(*type)`
