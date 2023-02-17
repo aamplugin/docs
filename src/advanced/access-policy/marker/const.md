@@ -3,4 +3,8 @@ title: CONST
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${CONST.<constantName>}`
+
+#### Definition

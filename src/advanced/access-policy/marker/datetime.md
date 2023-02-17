@@ -3,4 +3,8 @@ title: DATETIME
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${DATETIME.<format>}`
+
+#### Definition

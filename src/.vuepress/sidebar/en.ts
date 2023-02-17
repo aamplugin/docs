@@ -15,5 +15,5 @@ export const enSidebar = sidebar({
   "/advanced/hooks/": "structure",
   "/advanced/restful/": "structure",
   "/advanced/cli/": "structure",
-  "/advanced/sdk/": "structure",
+  "/advanced/api/": "structure",
 });

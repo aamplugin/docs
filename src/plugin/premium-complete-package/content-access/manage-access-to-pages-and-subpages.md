@@ -1,6 +1,5 @@
 ---
 title: Manage access to pages and their sub-pages
-order: 1
 ---
 
 ::: info FYI!

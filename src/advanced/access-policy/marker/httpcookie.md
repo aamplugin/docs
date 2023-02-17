@@ -3,4 +3,8 @@ title: HTTP_COOKIE
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${HTTP_COOKIE.<cookieName>}`
+
+#### Definition

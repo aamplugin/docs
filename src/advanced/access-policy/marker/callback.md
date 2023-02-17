@@ -3,4 +3,8 @@ title: CALLBACK
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${CALLBACK.<callable>}`
+
+#### Definition

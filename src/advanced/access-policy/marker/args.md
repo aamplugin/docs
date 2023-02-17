@@ -3,4 +3,8 @@ title: ARGS
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${ARGS.<pathToProperty>}`
+
+#### Definition

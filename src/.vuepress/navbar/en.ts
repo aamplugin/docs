@@ -66,8 +66,8 @@ export const enNavbar = navbar([
             link: '/advanced/cli/'
           },
           {
-            text: 'Developer SDK',
-            link: '/advanced/sdk/'
+            text: 'Developer API',
+            link: '/advanced/api/'
           }
         ]
       },

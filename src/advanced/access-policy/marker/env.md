@@ -3,4 +3,8 @@ title: ENV
 comment: false
 ---
 
-<UnderDevelopment />
+#### Syntax
+
+`${ENV.<environmentVariable>}`
+
+#### Definition

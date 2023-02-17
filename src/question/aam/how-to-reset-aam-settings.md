@@ -29,3 +29,22 @@ Where there is a need to reset all AAM settings to default, navigate to the _Set
 If your admin user lost access to the backend (because you made a mistake) and can't reset AAM settings with the UI, then you need to delete AAM settings from the DB.
 
 AAM stores all the settings in the `_options` and `_usermeta` tables with the `aam_` prefix. You can connect to your MySQL database with preferred DB client and manually delete AAM records.
+
+## Programmatically reset AAM settings
+
+AAM has several ways to reset settings programmatically with its embedded API. Depending on your needs, you can choose snippets of the code that will do the trick.
+
+When you need to reset settings for a role, user, visitors, or default access settings for all, use these methods respectively.
+
+```php
+AAM::api()->getRole($roleId)->reset();
+AAM::api()->getUser($userId)->reset();
+AAM::api()->getVisitor()->reset();
+AAM::api()->getDefault()->reset();
+```
+
+When you need to reset all AAM settings (all users, roles, visitors, and default), then use the `reset` method as follows.
+
+```php
+AAM::api()->reset();
+```
