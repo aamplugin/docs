@@ -556,7 +556,6 @@ wp_remote_request('https://<your-server-domain>/aam/v2/role/custom_role', [
 | 404 | The specified role does not exist or is not editable by the current user. AAM relies on the WordPress core filter [editable_roles](https://developer.wordpress.org/reference/hooks/editable_roles/) to determine if role is editable. |
 | 409 | The new role attributes violate WP core rules. For example, overlapping role slug |
 | 500 | Unexpected application error. Check your PHP error log for more detail. |
-| 507 | The input values are correct, however, failed to persist information in the database. |
 
 ## Delete existing role
 
