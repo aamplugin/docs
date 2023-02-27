@@ -22,7 +22,7 @@ Get the list of all editable roles. AAM relies on the WordPress core filter [edi
 
 @tab curl
 
-```curl:active
+```shell:active
 curl --request GET \
      --url https://<your-server-domain>/aam/v2/roles?fields=capabilities \
      --header 'Accept: application/json' \
@@ -280,7 +280,7 @@ Get a role by slug. The requesting user has to have both [aam_manager](/plugin/a
 
 @tab curl
 
-```curl:active
+```shell:active
 curl --request GET \
      --url https://<your-server-domain>/aam/v2/role/subscriber \
      --header 'Accept: application/json' \
@@ -360,7 +360,7 @@ Create new role. The requesting user has to have both [aam_manager](/plugin/adva
 ::: code-tabs
 @tab curl
 
-```curl:active
+```shell:active
 curl --request POST \
      --url https://<your-server-domain>/aam/v2/role \
      --data '{"name":"Custom Role","slug":"custom_role"}'
@@ -465,7 +465,7 @@ Update existing role. The requesting user has to have both [aam_manager](/plugin
 ::: code-tabs
 @tab curl
 
-```curl:active
+```shell:active
 curl --request PATCH \
      --url https://<your-server-domain>/aam/v2/role/custom_role \
      --data '{"name":"New Name"}'
@@ -567,7 +567,7 @@ Delete existing role. The requesting user has to have both [aam_manager](/plugin
 
 @tab curl
 
-```curl:active
+```shell:active
 curl --request DELETE \
      --url https://<your-server-domain>/aam/v2/role/custom_role \
      --header 'Accept: application/json' \

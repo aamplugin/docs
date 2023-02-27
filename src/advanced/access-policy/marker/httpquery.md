@@ -1,6 +1,5 @@
 ---
 title: HTTP_QUERY
-comment: false
 ---
 
-<UnderDevelopment />
+It is the alias for the [HTTP_GET](/advanced/access-policy/marker/httpget) marker.

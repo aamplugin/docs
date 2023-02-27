@@ -40,7 +40,7 @@ Go to the root of your website and open the `.htaccess` file. Copy & paste the f
 It is very important to insert these configurations at the beginning of the `.htaccess` file to eliminate any chance for other redirect rules to suppress AAM rules that manage access to your files.
 :::
 
-```htaccess
+```apache
 # BEGIN AAM Media Access Control
 <IfModule mod_rewrite.c>
 	RewriteEngine On
@@ -53,7 +53,7 @@ It is very important to insert these configurations at the beginning of the `.ht
 ```
 ::: info Note!
 If your website root is located in a subfolder, for example, `https://mywebsitedomain.com/wordpress`, then adjust the `RewriteBase` and `RewriteRule` rules accordingly.
-```htaccess
+```apache
 # BEGIN AAM Media Access Control
 <IfModule mod_rewrite.c>
 	RewriteEngine On
