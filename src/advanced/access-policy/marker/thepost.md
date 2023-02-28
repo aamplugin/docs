@@ -2,6 +2,12 @@
 title: THE_POST
 ---
 
+#### Syntax
+
+`${THE_POST.<property>}`
+
+#### Definition
+
 ::: warning Experimental Feature!
 Warning! The `THE_POST` is currently an experimental feature and may cause fatal errors depending on policy and website setup.
 :::

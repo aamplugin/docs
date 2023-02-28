@@ -2,6 +2,12 @@
 title: HTTP_GET
 ---
 
+#### Syntax
+
+`${HTTP_GET.<pathToProperty>}`
+
+#### Definition
+
 Get data from the PHP superglobal [$_GET](http://php.net/manual/en/reserved.variables.get.php).
 
 ::: info Note!

@@ -2,6 +2,12 @@
 title: JWT
 ---
 
+#### Syntax
+
+`${JWT.<pathToProperty>}`
+
+#### Definition
+
 The `JWT` marker is a powerful way to manage access based on the token claims.
 
 In the example below, AAM issued the JWT token with the following claims.

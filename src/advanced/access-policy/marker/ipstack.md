@@ -2,6 +2,12 @@
 title: IPSTACK
 ---
 
+#### Syntax
+
+`${IPSTACK.<pathToProperty>}`
+
+#### Definition
+
 ::: info Note!
 The `IPSTACK` is the custom marker available with the premium [Complete Package](/premium) add-on.
 :::

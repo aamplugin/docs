@@ -2,6 +2,12 @@
 title: POLICY_PARAM
 ---
 
+#### Syntax
+
+`${POLICY_PARAM.<param>}`
+
+#### Definition
+
 Fetch the applicable access policy [Param](/advanced/access-policy/policy-overview#param) by its key name. Handy when defining a policy "constants" once and reusing them across all statements.
 
 In the example policy below, we limit the number of posts that users can create.
