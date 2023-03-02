@@ -2,14 +2,14 @@
 title: Plugin
 ---
 
-#### Syntax
+### Syntax
 
 `Plugin`<br/>
 `Plugin:<plugin-slug>`
 
 If no `plugin-slug`provided, all plugins are assumed.
 
-#### Definition
+### Definition
 
 AAM treats each plugin as a separate resource that is identified by the unique plugin’s slug. The easier way to find the correct plugin’s slug is to go to the `wp-content/plugins` folder and the name of the plugin’s folder is the _slug_.
 

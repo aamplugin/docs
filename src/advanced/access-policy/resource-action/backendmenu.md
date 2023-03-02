@@ -2,11 +2,11 @@
 title: BackendMenu
 ---
 
-#### Syntax
+### Syntax
 
 `BackendMenu:<menu-id>`
 
-#### Definition
+### Definition
 
 The WordPress core does not have the true concept of a unique _menu id_. The uniqueness of each menu or submenu item determins by its URI (e. g. `edit.php?post_type=page` or `options-reading.php`).
 

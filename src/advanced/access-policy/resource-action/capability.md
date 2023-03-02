@@ -2,11 +2,11 @@
 title: Capability
 ---
 
-#### Syntax
+### Syntax
 
 `Capability:<capability-slug>`
 
-#### Definition
+### Definition
 
 AAM treats WordPress capability as a stand-alone resource that can be assigned or deprived of any role or user.
 

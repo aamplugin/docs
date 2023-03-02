@@ -2,7 +2,7 @@
 title: Hook
 ---
 
-#### Syntax
+### Syntax
 
 `Hook:<filter-or-action-name>`<br/>
 `Hook:<filter-or-action-name>:<priority>`
@@ -11,7 +11,7 @@ title: Hook
 If `priority` is not specified, it defaults to `10`.
 :::
 
-#### Definition
+### Definition
 
 Target a [hook](https://developer.wordpress.org/plugins/hooks/) (action or filter) and either deny its execution or hook into the filters chain and override the response with `apply` [Effect](/advanced/access-policy/policy-overview#effect). You can target only actions and filters registered after  [plugins_loaded](https://developer.wordpress.org/reference/hooks/plugins_loaded/) action.
 

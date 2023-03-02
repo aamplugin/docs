@@ -63,6 +63,7 @@ export default hopeTheme({
       tabs: false,
       vPre: false,
       vuePlayground: false,
+      imgSize: true
     }
 
   }

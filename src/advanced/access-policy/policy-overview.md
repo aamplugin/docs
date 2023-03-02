@@ -8,9 +8,11 @@ order: 2
 
 ## Dependency
 
-## Effect
-
 ## Statement
+
+### Effect
+### Resource
+### Action
 
 ## Param
 

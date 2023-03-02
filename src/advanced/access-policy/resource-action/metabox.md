@@ -2,11 +2,11 @@
 title: Metabox
 ---
 
-#### Syntax
+### Syntax
 
 `Metabox:<metabox-internal-id>`
 
-#### Definition
+### Definition
 
 _Metaboxes_ are small functional blocks that typically render on the post-edit screen and identifies by the unique internal ID. Similar to the way [BackendMenu](/advanced/access-policy/resource-action/backendmenu) or [Toolbar](/advanced/access-policy/resource-action/toolbar) resources work.
 
