@@ -1,5 +1,5 @@
 ---
-title: Extend access policy with additional resources
+title: Extend access policy
 ---
 
 [Access policy](/advanced/access-policy/) is the recommended way to manage access controls to WordPress websites for many reasons. That is why we ensured that the new capabilities that the premium Complete Package introduces are also manageable with access policies.
