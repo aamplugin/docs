@@ -1,5 +1,5 @@
 ---
-title: Manage access to content by IP
+title: Restrict access to URL
 comment: false
 ---
 

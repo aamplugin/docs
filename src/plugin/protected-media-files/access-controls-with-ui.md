@@ -24,7 +24,7 @@ Both ways are identical and it is just a matter of personal preference.
 
 ## Manage access to media URIs
 
-When files are not part of the media library or live in a completely different directory (outside of the `/wp-content/uploads`), then you may consider protecting them with the [URI Access](/plugin/advanced-access-manager/service/uri) service.
+When files are not part of the media library or live in a completely different directory (outside of the `/wp-content/uploads`), then you may consider protecting them with the [URL Access](/plugin/advanced-access-manager/service/url-access) service.
 
 ::: info FYI!
 If the files that you protect live in the directory that is outside of the `/wp-content/uploads`, then make sure that your [server redirect rules](/plugin/protected-media-files/installation#setup-server-redirect-rules) are adjusted accordingly.
@@ -37,6 +37,6 @@ For example, if you have a file that is located in the `/wp-content/uploads/rest
 To do that, go to the AAM page and select the _URI Access_ tab. Create a new rule and provide either the relative path or the absolute path to the file (e. g. `/wp-content/uploads/restricted/internal-compensations.pdf` or `https://example.com/wp-content/uploads/restricted/internal-compensations.pdf`). Then select the "Deny Access" option.
 
 ## Conclusion
-Managing access to the WordPress media files with [Posts & Terms](/plugin/advanced-access-manager/service/post-term) or [URI Access](/plugin/advanced-access-manager/service/uri) service is equally good and, typically, depends on how your files are organized.
+Managing access to the WordPress media files with [Posts & Terms](/plugin/advanced-access-manager/service/post-term) or [URL Access](/plugin/advanced-access-manager/service/url-access) service is equally good and, typically, depends on how your files are organized.
 
 The general rule of thumb is that if your files are part of the _Media Library_, then go with the _Posts & Terms_ service. Otherwise, use the _URI Access_ service.

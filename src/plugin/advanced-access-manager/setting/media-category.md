@@ -6,7 +6,7 @@ title: Media Categories
 This functionality is available with the premium [Complete Package](/premium) add-on.
 :::
 
-![AAM Setting Manage Capability](./assets/aam-setting-media-category.png)
+![AAM Setting Media Category](./assets/aam-setting-media-category.png)
 
 A basic WordPress setup does not allow grouping media items into categories. It can be handy when you plan to manage access to a group of media assets. Upon enabling the _Media Categories_ setting, you may start creating and grouping your media items into categories the same way as with regular posts.
 

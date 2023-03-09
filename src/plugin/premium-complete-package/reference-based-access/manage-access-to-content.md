@@ -1,5 +1,5 @@
 ---
-title: URI Access
+title: Manage access to content
 comment: false
 ---
 

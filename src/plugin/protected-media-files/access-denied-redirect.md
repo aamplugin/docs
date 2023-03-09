@@ -5,7 +5,7 @@ order: 7
 
 The default workflow, when a user tries to open the restricted file, is to respond with [HTTP 401 (Unauthorized)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401). Depending on the browser, it shows an empty screen or "This page isn't working...". It may not be the best user experience if you want to explain to the user the reason they can't access the file.
 
-You can customize the user experience in a few different ways, and it depends on the service you use to restrict access to files ([Posts & Terms](/plugin/advanced-access-manager/service/post-term) or [URI Access](/plugin/advanced-access-manager/service/uri)).
+You can customize the user experience in a few different ways, and it depends on the service you use to restrict access to files ([Posts & Terms](/plugin/advanced-access-manager/service/post-term) or [URL Access](/plugin/advanced-access-manager/service/url-access)).
 
 ## Posts & Terms redirect
 
@@ -19,7 +19,7 @@ It may appear confusing why you need to enable the _Use Access Denied Redirect F
 
 ## URI Access redirect
 
-The [URI Access](/plugin/advanced-access-manager/service/uri) service is designed to manage access to parts of your website that may not directly tight to the WordPress website. For example, you may choose to upload some stand-alone files directly to the `/wp-content/uploads` directory. This is where the _URI Access_ service can help you define your access controls.
+The [URL Access](/plugin/advanced-access-manager/service/url-access) service is designed to manage access to parts of your website that may not directly tight to the WordPress website. For example, you may choose to upload some stand-alone files directly to the `/wp-content/uploads` directory. This is where the _URI Access_ service can help you define your access controls.
 
 ![URI Access Redirect Rule](./assets/uri-access-redirect.png)
 

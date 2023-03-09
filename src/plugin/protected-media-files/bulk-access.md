@@ -25,7 +25,7 @@ AAM recognizes all properly registered taxonomies. You can create your custom ta
 
 ## Manage access by a directory
 
-When you need to manage access to all files within a directory, you can utilize the [URI Access](/plugin/advanced-access-manager/service/uri) service instead. Here you can define a wildcard rule and all URLs that match the pattern will be restricted from direct access.
+When you need to manage access to all files within a directory, you can utilize the [URL Access](/plugin/advanced-access-manager/service/url-access) service instead. Here you can define a wildcard rule and all URLs that match the pattern will be restricted from direct access.
 
 For example, let's say you need to restrict the direct access to all files that live in the `/wp-content/uploads/courses/` directory. In this case, go to the AAM page and navigate to the _URI Access_ tab. Then select the _Create New Rule_ button and enter URI `/wp-content/uploads/courses/*` as well as select _Deny Access (show "Access Denied" redirect)_ option.
 
