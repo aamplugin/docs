@@ -2,11 +2,11 @@
 title: JWT
 ---
 
-#### Syntax
+### Syntax
 
 `${JWT.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 The `JWT` marker is a powerful way to manage access based on the token claims.
 

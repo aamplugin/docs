@@ -2,11 +2,11 @@
 title: WP_OPTION
 ---
 
-#### Syntax
+### Syntax
 
 `${WP_OPTION.<option>}`
 
-#### Definition
+### Definition
 
 Get the website option from the database table `wp_options`. AAM uses the WordPress core function [get_option](https://developer.wordpress.org/reference/functions/get_option/) to fetch the value.
 

@@ -2,12 +2,12 @@
 title: Markers
 ---
 
-#### Syntax
+### Syntax
 
 `(*type)${SOURCE.pathToProperty}`
 
 
-#### Definition
+### Definition
 
 Think about marker as the way to inject a dynamic value to the access policy. You can specify them literally anywhere in your policy, and AAM recursively replaces them during policy evaluation.
 

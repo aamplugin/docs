@@ -2,11 +2,11 @@
 title: DATETIME
 ---
 
-#### Syntax
+### Syntax
 
 `${DATETIME.<format>}`
 
-#### Definition
+### Definition
 
 Get the current date and time based on the provided format. The marker has to use the valid DateTime format according to the official PHP [date formatting rules](http://php.net/manual/en/function.date.php).
 

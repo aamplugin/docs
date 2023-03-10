@@ -2,11 +2,11 @@
 title: USER_META
 ---
 
-#### Syntax
+### Syntax
 
 `${USER_META.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Every WordPress account comes with a set of metadata stored in the core database table `wp_usermeta`. The `USER_META` marker references all user meta values based on the currently logged-in user ID. AAM uses the WordPress core [get_current_user_id](https://developer.wordpress.org/reference/functions/get_current_user_id/) function to determine the ID. It also means that visitors or unauthenticated users cannot have any meta.
 

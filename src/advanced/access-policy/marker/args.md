@@ -2,11 +2,11 @@
 title: ARGS
 ---
 
-#### Syntax
+### Syntax
 
 `${ARGS.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 The `ARGS` marker allows you to inject values to the policy through the PHP code at the time the [statement](/advanced/access-policy/policy-overview#statement) or [param](/advanced/access-policy/policy-overview#param) evaluates. Fundamental, it is similar to [CONST](/advanced/access-policy/marker/const) or [CALLBACK](/advanced/access-policy/marker/callback) as it has a direct link to the PHP codebase. However, conceptually it is used for a different purpose.
 

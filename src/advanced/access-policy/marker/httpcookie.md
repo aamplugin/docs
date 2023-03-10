@@ -2,11 +2,11 @@
 title: HTTP_COOKIE
 ---
 
-#### Syntax
+### Syntax
 
 `${HTTP_COOKIE.<cookieName>}`
 
-#### Definition
+### Definition
 
 Get data from the PHP superglobal [$_COOKIE](http://php.net/manual/en/reserved.variables.cookies.php).
 

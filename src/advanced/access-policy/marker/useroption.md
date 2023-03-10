@@ -2,11 +2,11 @@
 title: USER_OPTION
 ---
 
-#### Syntax
+### Syntax
 
 `${USER_OPTION.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Very similar to the [USER_META](/advanced/access-policy/marker/usermeta) marker, with the only difference in how the data is fetched from the database.
 

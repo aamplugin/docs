@@ -2,11 +2,11 @@
 title: CONST
 ---
 
-#### Syntax
+### Syntax
 
 `${CONST.<constantName>}`
 
-#### Definition
+### Definition
 
 Get value for any globally defined constant declared with the [define](https://www.php.net/manual/en/function.define.php) PHP core function.
 

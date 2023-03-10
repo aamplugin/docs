@@ -2,11 +2,11 @@
 title: PHP_GLOBAL
 ---
 
-#### Syntax
+### Syntax
 
 `${PHP_GLOBAL.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Get value from any globally defined variable in the PHP code. AAM users the superglobal [$GLOBALS](https://www.php.net/manual/en/reserved.variables.globals.php) to fetch the targeted value.
 

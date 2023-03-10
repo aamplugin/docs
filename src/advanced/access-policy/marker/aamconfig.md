@@ -2,11 +2,11 @@
 title: AAM_CONFIG
 ---
 
-#### Syntax
+### Syntax
 
 `${AAM_CONFIG.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Fetch configurations that are defined with the [ConfigPress](/plugin/advanced-access-manager/configpress/).
 

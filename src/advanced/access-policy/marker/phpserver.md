@@ -2,11 +2,11 @@
 title: PHP_SERVER
 ---
 
-#### Syntax
+### Syntax
 
 `${PHP_SERVER.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Get data from the PHP superglobal [$_SERVER](http://php.net/manual/en/reserved.variables.server.php).
 

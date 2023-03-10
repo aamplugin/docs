@@ -2,11 +2,11 @@
 title: POLICY_PARAM
 ---
 
-#### Syntax
+### Syntax
 
 `${POLICY_PARAM.<param>}`
 
-#### Definition
+### Definition
 
 Fetch the applicable access policy [Param](/advanced/access-policy/policy-overview#param) by its key name. Handy when defining a policy "constants" once and reusing them across all statements.
 

@@ -2,11 +2,11 @@
 title: WP_SITE
 ---
 
-#### Syntax
+### Syntax
 
 `${WP_SITE.<property>}`
 
-#### Definition
+### Definition
 
 Get any property of the currently viewed blog. This marker user WordPress core function [get_blog_details](https://developer.wordpress.org/reference/functions/get_blog_details/) to obtain an instance of [WP_Site](https://developer.wordpress.org/reference/classes/wp_site/) that holds all the necessary information about a blog.
 

@@ -2,11 +2,11 @@
 title: POLICY_META
 ---
 
-#### Syntax
+### Syntax
 
 `${POLICY_META.<property>}`
 
-#### Definition
+### Definition
 
 The `POLICY_META` marker references the [custom fields](https://wordpress.org/documentation/article/assign-custom-fields/) for the policy itself.
 

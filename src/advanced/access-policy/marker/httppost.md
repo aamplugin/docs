@@ -2,11 +2,11 @@
 title: HTTP_POST
 ---
 
-#### Syntax
+### Syntax
 
 `${HTTP_POST.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 Get data from the PHP superglobal [$_POST](http://php.net/manual/en/reserved.variables.post.php).
 

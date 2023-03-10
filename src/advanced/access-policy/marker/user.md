@@ -2,11 +2,11 @@
 title: USER
 ---
 
-#### Syntax
+### Syntax
 
 `${USER.<pathToProperty>}`
 
-#### Definition
+### Definition
 
 The `USER` marker allows getting current user attributes. The current user object initializes during a very early stage of the website load. It is stored in the global `$current_user` and contains the instance of the [WP_User](https://developer.wordpress.org/reference/classes/wp_user/) class. This object has all the information about the user, and you can use it to prepare different conditions for your policy statements.
 

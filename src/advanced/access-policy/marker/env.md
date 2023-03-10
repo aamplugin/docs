@@ -2,11 +2,11 @@
 title: ENV
 ---
 
-#### Syntax
+### Syntax
 
 `${ENV.<environmentVariable>}`
 
-#### Definition
+### Definition
 
 Get the value of the environment variable as described in the [official PHP documentation](https://www.php.net/manual/en/function.getenv.php).
 

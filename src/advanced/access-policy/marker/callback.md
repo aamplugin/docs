@@ -2,11 +2,11 @@
 title: CALLBACK
 ---
 
-#### Syntax
+### Syntax
 
 `${CALLBACK.<callable>}`
 
-#### Definition
+### Definition
 
 Trigger any valid callback function or static method that returns some values. This is quite a powerful way to enhance your policies with some dynamic calculations. Each `CALLBACK` marker has to have a well-defined [PHP callback](http://php.net/manual/en/language.types.callable.php) as a string. This means that it has to be either a function name or a static method of a class.
 
