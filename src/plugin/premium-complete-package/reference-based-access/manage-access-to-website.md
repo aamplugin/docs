@@ -1,5 +1,5 @@
 ---
-title: Restrict access to URL
+title: Restrict access to entire website
 comment: false
 ---
 

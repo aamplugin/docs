@@ -81,48 +81,95 @@ After the user reaches the defined threshold, access to a post is denied.
 
 #### LEAVE COMMENTS
 
-In progress...
+Manage the ability to leave comments. It is very similar to how you manage commenting for any selected post.
+
+![WordPress Allow Comments](./assets/wordpress-allow-comments.png)
+
+The fundamental difference is that with AAM, you can disable commenting on a group of _posts_ or even set the default access to all with the premium [Complete Package](/premium)
 
 #### REDIRECT
 
-In progress...
+Define a custom redirect when a user tries to access a _post_.
+
+![AAM Post Redirect](./assets/aam-post-redirect.png)
+
+This feature allows redirecting a user to an existing page, a valid and safe URL, or triggering a custom callback function (if you need to take complete control over the redirect).
+
+::: info FYI!
+AAM performs a safe redirect with the WordPress core function [wp_safe_redirect](https://developer.wordpress.org/reference/functions/wp_safe_redirect/), which checks if the URL is for the allowed host.
+:::
 
 #### PASSWORD PROTECTED
 
-In progress...
+Password protected a _post_.
+
+![AAM Post Redirect](./assets/aam-password-protected.png)
+
+::: info Note!
+Most well-designed themes support password-protected posts. However, we've seen themes that do not have this functionality coded. If you have challenges configuring this feature, confirm with the theme developer that password-protected functionality is available prior to contact us.
+:::
 
 #### ACCESS EXPIRED
 
-In progress...
+Define when access to a _post_ expires. After the specified date and time, access to the _post_ is denied. The user is redirected based on the [Access Denied Redirect](/plugin/advanced-access-manager/service/access-deny-redirect) rule.
+
+![AAM Post Access Expire](./assets/aam-post-access-expire.png)
 
 #### EDIT
 
-In progress...
+Manage the ability to edit a _post_. If denied, the user will not be able to make changes to the _post_ through the _backend_ or RESTful API.
 
 #### EDIT BY OTHERS
 
-In progress...
+Similarly to the [EDIT](/plugin/advanced-access-manager/service/post-term#edit) option, managing the ability to edit a _post_ by a user with the same role as the _post_ author. This option is available with the premium [Complete Package](/premium)) only.
 
 #### DELETE
 
-In progress...
+Manage the ability to delete a _post_. If denied, the user will not be able to trash or delete the _post_ through the _backend_ or RESTful API.
 
 #### DELETE BY OTHERS
 
-In progress...
+Similarly to the [DELETE](/plugin/advanced-access-manager/service/post-term#delete) option, managing the ability to trash or delete a _post_ by a user with the same role as the _post_ author. This option is available with the premium [Complete Package](/premium)) only.
 
 #### PUBLISH
 
-In progress...
+Manage the ability to publish a draft _post_.
 
 #### PUBLISH BY OTHERS
 
-In progress...
+Similarly to the [PUBLISH](/plugin/advanced-access-manager/service/post-term#publish) option, managing the ability to publish a draft _post_ by a user with the same role as the _post_ author. This option is available with the premium [Complete Package](/premium)) only.
 
 #### REFERENCE CHECK
 
-In progress...
+Manage access to a _post_ based on a user's reference attributes like IP address, geographical location, referred domain, or URL query parameters.
+
+![AAM Post Reference Check](./assets/aam-reference-check.png)
+
+This option is available only with the [Complete Package](/premium) add-on, and you can learn more about the way it works [here](/plugin/premium-complete-package/reference-based-access/manage-access-to-content).
 
 ### Term Access Controls
 
-In progress...
+AAM allows managing access controls to any individual _term_ with the premium [Complete Package](/premium) add-on. It supports several most common options as listed below.
+
+![AAM Term Access](./assets/aam-term-access.png)
+
+
+#### RESTRICTED
+
+Manage the ability to browse a _term_ directly. In other words - see the list of _posts_ that belong to the _term_. For example, you can use _terms_ to organize content on the _frontend_ where a user can navigate to a link like `/category/science` and see all pages tagged with the "Science" category. The "RESTRICTED" option denies access to these types of links.
+
+#### HIDDEN
+
+Manage _term’s_ visibility. In other words - hide the _term_ however, allow direct access with URL. You can manage the _term's_ visibility separately for the _backend_, _frontend_, and RESTful API levels.
+
+#### EDIT
+
+Manage the ability to edit a _term_.
+
+#### DELETE
+
+Manage the ability to delete a _term_.
+
+#### ASSIGN
+
+Manage the ability to assign a _term_ to _posts_. It is a helpful constraint if you do not want your users to assign _posts_ to any specific categories.
