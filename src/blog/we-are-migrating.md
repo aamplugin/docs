@@ -32,7 +32,7 @@ If you have two or more licenses, we offer to consolidate them into one "Complet
 
 ### Pricing Changes
 
-We decided that the base price for the "Complete Package" will be $99 for the first year and a base $49 renewal fee. If you already have the "Complete Package" or converted your other license(s) to it, you only will pay minimum $49 when your renewal date is due.
+We decided that the base price for the "Complete Package" will be between $79-$99 for the first year and a base $49 renewal fee. If you already have the "Complete Package" or converted your other license(s) to it, you only will pay minimum $49 when your renewal date is due.
 
 The renewal price is dynamically adjusted based on the number of active domains that you have. Each new domain that exceeds the license limit adds $9.99 to the renewal amount. For example, if the "Complete Package" was installed on 2 domains, then you only pay $49 because it is below the default license limit of three domains. However, if the add-on is installed on 5 domains, then the renewal amount will be $68.98 ($49 + $9.99*2).
 
@@ -71,6 +71,6 @@ _What is the "license limit"?_
 
 Think about the license limit as the number of websites that you can install your premium add-on on without paying the initial, one-time installation fee of $19.99. When you buy a license key, by default, you can download and install our premium Complete Package add-on on up to 3 websites. If you choose to go beyond 3 websites, this is where you "pay as you go" for each additional website. For each new website, you pay a one-time fee of $19.99 and your subscription plan goes up by an additional $9.99/per year.
 
-_I already purchase Plus Package (IP Check, Role Hierarchy). Do I have to pay now $99?_
+_I already purchase Plus Package (IP Check, Role Hierarchy). Do I have to pay again?_
 
 **No.** We automatically converted all deprecated add-ons to the Complete Package for no additional cost. However, if you have an active subscription plan, it goes up to $49/per year on January 31st, 2023.

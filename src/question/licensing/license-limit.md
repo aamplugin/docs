@@ -12,7 +12,7 @@ The license limit is the number of domains you can have the premium [Complete Pa
 The license limit **does not** contribute to the final cost of the yearly renewal. The renewal cost is calculated based on the license type and the number of active domains.
 :::
 
-Let's say, Emily purchased a Regular license key for $99. It allows her to download and use the Complete Package on up to 3 domains. She activated the premium add-on on three websites successfully. At this point, her year subscription amount stays at $49.
+Let's say, Emily purchased a Regular license key for $79. It allows her to download and use the Complete Package on up to 3 domains. She activated the premium add-on on three websites successfully. At this point, her year subscription amount stays at $49.
 
 Her project expands, and she needs the premium add-on on one more website. So she downloads and installs the Complete Package on the fourth domain. Because Emily's license limit is up to 3 domains, our system notifies her via email about the upcoming one-time charge of $19.99 for the additional domain, and her subscription amount goes up by $9.99.
 

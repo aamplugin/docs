@@ -11,7 +11,7 @@ How does the AAM pricing model works? Can you please clarify how much do I pay a
 <PricingCalculator />
 :::
 
-The premium "Complete Package" adopts unorthodox pricing model. First of all, this is a yearly subscription plan. However, you pay only once the full amount during initial purchase, and all subsequent years a much smaller amount to be able to download new updates. For example, if you pay $99 USD today, then next year, the renewal amount will be only $49 USD.
+The premium "Complete Package" adopts unorthodox pricing model. First of all, this is a yearly subscription plan. However, you pay only once the full amount during initial purchase, and all subsequent years a much smaller amount to be able to download new updates. For example, if you pay $79 USD today, then next year, the renewal amount will be only $49 USD.
 
 Another differentiating factor is that you pay as you go. By default, you can install the premium plugin on up to 3 different domains. In other words, you purchase a license key that you can use to download the premium plugin and install it on up to 3 different websites.
 

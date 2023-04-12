@@ -8,7 +8,8 @@ The framework manager is a single entry point to the framework. It is a  class `
 ```php
 class AAM_Framework_Manager {
 
-    public static function roles() : AAM_Framework_Service_Roles
+    public static roles() : AAM_Framework_Service_Roles
+    public static urls(AAM_Framework_Model_ServiceContext $runtime_context = null) : AAM_Framework_Service_Urls
 
 }
 ```

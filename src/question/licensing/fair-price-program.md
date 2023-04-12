@@ -3,7 +3,7 @@ title: What is the fair price program?
 ---
 
 ::: question Question
-I can't afford to pay $99 for the premium software because it either takes a big cut from my income or I need only one specific feature. Can you please give me a discount?
+I can't afford to pay $69 for the premium software because it either takes a big cut from my income or I need only one specific feature. Can you please give me a discount?
 :::
 
 We recognize that the cost of goods and living varies between countries around the globe. A WordPress software engineer in the USA may not get out of their bed for less than $50/hour. However, for an engineer in Pakistan or Côte d'Ivoire, this may be a monthly income.

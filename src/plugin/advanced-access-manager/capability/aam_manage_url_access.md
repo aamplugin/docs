@@ -1,5 +1,5 @@
 ---
-title: aam_manage_uri
+title: aam_manage_url_access
 comment: false
 ---
 

@@ -12,8 +12,8 @@ Here is a quick comparison table for all four types.
 
 | &nbsp; | Starter | Regular | Trial | Enterprise |
 | ------ | ------- | ------- | ----- | ---------- |
-| One time fee | $69 | $99 | $99 | $1299 |
-| Recurring fee | $49 | $49 | $49 | $1299 |
+| One time fee | $69 | $79 | $79 | $999 |
+| Recurring fee | $49 | $49 | $49 | $999 |
 | Expires in (unless successfully auto-renewed) | 1 year | 1 year | 14 days | 1 year |
 | Limit (websites) | 1 | 3 | 3 | 100 |
 | Monthly dedicated tech support | No | No | No | Yes |

@@ -14,7 +14,7 @@ For more detail, refer to the [How to manage access to AAM page for other users?
 
 ## Get roles
 
-`GET /roles`
+`GET /aam/v2/roles`
 
 Get the list of all editable roles. AAM relies on the WordPress core filter [editable_roles](https://developer.wordpress.org/reference/hooks/editable_roles/) to determine the final list of returned roles. The requesting user has to have both [aam_manager](/plugin/advanced-access-manager/capability/aam_manager) and [aam_manage_roles](/plugin/advanced-access-manager/capability/aam_manage_roles) assigned to access this endpoint.
 
@@ -272,7 +272,7 @@ wp_remote_get('https://<your-server-domain>/aam/v2/roles?fields=capabilities', [
 
 ## Get a role
 
-`GET /role/<slug>`
+`GET /aam/v2/role/<slug>`
 
 Get a role by slug. The requesting user has to have both [aam_manager](/plugin/advanced-access-manager/capability/aam_manager) and [aam_manage_roles](/plugin/advanced-access-manager/capability/aam_manage_roles) assigned to access this endpoint.
 
@@ -353,7 +353,7 @@ wp_remote_get('https://<your-server-domain>/aam/v2/role/subscriber', [
 
 ## Create new role
 
-`POST /role`
+`POST /aam/v2/role`
 
 Create new role. The requesting user has to have both [aam_manager](/plugin/advanced-access-manager/capability/aam_manager) and [aam_create_roles](/plugin/advanced-access-manager/capability/aam_create_roles) assigned to access this endpoint.
 
@@ -457,7 +457,7 @@ wp_remote_post('https://<your-server-domain>/aam/v2/role', [
 
 ## Update existing role
 
-`PATCH /role/<slug>`
+`PATCH /aam/v2/role/<slug>`
 
 
 Update existing role. The requesting user has to have both [aam_manager](/plugin/advanced-access-manager/capability/aam_manager) and [aam_edit_roles](/plugin/advanced-access-manager/capability/aam_edit_roles) assigned to access this endpoint.
@@ -559,7 +559,7 @@ wp_remote_request('https://<your-server-domain>/aam/v2/role/custom_role', [
 
 ## Delete existing role
 
-`DELETE /role/<slug>`
+`DELETE /aam/v2/role/<slug>`
 
 Delete existing role. The requesting user has to have both [aam_manager](/plugin/advanced-access-manager/capability/aam_manager) and [aam_delete_roles](/plugin/advanced-access-manager/capability/aam_delete_roles) assigned to access this endpoint.
 
