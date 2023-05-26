@@ -1,6 +1,6 @@
 ---
-title: Token claims
-order: 4
+title: Token Claims
+order: 5
 ---
 
 <UnderDevelopment />
