@@ -11,9 +11,9 @@ The number of attempts and pausing timeframe are configurable with  ConfigPress 
 ```ini
 [aam]
 ; Set number of login attempts
-service.secureLogin.settings.loginAttempts = 20
+service.secure_login.login_attempts = 20
 ; Set login lockout time. Any valid Date Time Format.
-service.secureLogin.settings.attemptWindow = "20 minutes"
+service.secure_login.time_window = "20 minutes"
 ```
 
 ::: info FYI!
