@@ -13,9 +13,14 @@ If `priority` is not specified, it defaults to `10`.
 
 ### Definition
 
-Target a [hook](https://developer.wordpress.org/plugins/hooks/) (action or filter) and either deny its execution or hook into the filters chain and override the response with `apply` [Effect](/advanced/access-policy/policy-overview#effect). You can target only actions and filters registered after  [plugins_loaded](https://developer.wordpress.org/reference/hooks/plugins_loaded/) action.
+Target a [hook](https://developer.wordpress.org/plugins/hooks/) (action or filter) and either deny its execution or hook into the filters chain and modify the response as specified by [Effect](/advanced/access-policy/policy-overview#effect). You can target only actions and filters registered after  [plugins_loaded](https://developer.wordpress.org/reference/hooks/plugins_loaded/) action.
 
-It is handy when you want to alter how certain parts of the website are working. For example, you want to hide all the extra widgets on the edit category page for users rendered by plugins like _Yoast_ or _AAM_. In this case, you should unregister all the callbacks attached to the action  [category_edit_form](https://developer.wordpress.org/reference/hooks/taxonomy_edit_form/) with priority 10.
+Currently, AAM support two different ways to modify the return value:
+
+- `apply` or `override` replaces the response value completely.
+- `merge` assumes that value is an array and merges it with provided array values.
+
+For example, you want to hide all the extra widgets on the edit category page for users rendered by plugins like _Yoast_ or _AAM_. In this case, you should unregister all the callbacks attached to the action  [category_edit_form](https://developer.wordpress.org/reference/hooks/taxonomy_edit_form/) with priority 10.
 
 ```json
 {
@@ -41,7 +46,7 @@ In the following example, we attend to override the filters response for the plu
 {
     "Statement": [
         {
-            "Effect": "apply",
+            "Effect": "override",
             "Resource": "Hook:wffn_user_access_capabilities:11",
             "Response": {
                 "editor": {
@@ -59,6 +64,23 @@ In the following example, we attend to override the filters response for the plu
                     ]
                 }
             }
+        }
+    ]
+}
+```
+
+In the following example, we add additional list of trusted domains:
+
+```json
+{
+    "Statement": [
+        {
+            "Effect": "merge",
+            "Resource": "Hook:allowed_redirect_hosts",
+            "Response": [
+                "members.aamportal.com",
+                "store.aamportal.com"
+            ]
         }
     ]
 }

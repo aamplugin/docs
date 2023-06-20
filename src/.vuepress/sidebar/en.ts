@@ -6,7 +6,6 @@ export const enSidebar = sidebar({
   "/course/developer-introduction": "structure",
   "/course/wp-role-capability": "structure",
   "/course/wp-jwt-authentication": "structure",
-  "/blog/": "structure",
   "/plugin/advanced-access-manager/": "structure",
   "/plugin/protected-media-files/": "structure",
   "/plugin/premium-complete-package/": "structure",

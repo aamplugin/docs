@@ -12,6 +12,7 @@ class AAM_Framework_Manager {
     public static urls(AAM_Framework_Model_ServiceContext $runtime_context = null) : AAM_Framework_Service_Urls
     public static api_routes(AAM_Framework_Model_ServiceContext $runtime_context = null) : AAM_Framework_Service_ApiRoutes
     public static jwts(AAM_Framework_Model_ServiceContext $runtime_context = null) : AAM_Framework_Service_Jwts
+    public static login_redirect(AAM_Framework_Model_ServiceContext $runtime_context = null) : AAM_Framework_Service_LoginRedirect
 
 }
 ```
