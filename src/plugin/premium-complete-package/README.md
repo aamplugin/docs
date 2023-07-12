@@ -1,5 +1,6 @@
 ---
 title: Premium Complete Package
+order: 1
 ---
 
 The [Advanced Access Manager](https://wordpress.org/plugins/advanced-access-manager/) comes with hundreds of features in the free version to cover many access and security management needs for small to medium size websites. However, Complete Package brings AAM to a new level with the arsenal of professional tools that satisfy 99% of all your access management needs at scale.

@@ -2,6 +2,13 @@
 title: URL Access
 ---
 
+::: info Quick Facts
+- Define an unlimited number of URLs for free.
+- Make the entire website private with the [premium](/premium) add-on.
+- Use a wildcard annotation to manage access to a group of URLs with the [premium](/premium) add-on.
+- Customize an access behavior by redirecting to a different location, showing a custom message, or triggering a PHP function.
+:::
+
 Another way to manage access to parts of the WordPress website is by URL. The "URL Access" service allows defining access controls to any individual URL that is within the site. It can be any _frontend_, _backend_ or RESTful API URL.
 
 ![AAM URL Access Service](./assets/aam-url-access-service.png)
