@@ -45,3 +45,5 @@ In this case, you need to find out the menu item's ID and use [the access policy
 - The current user or role truly does not have any capabilities assigned to them. Check on the _Capabilities_ tab if there are any capabilities assigned. The minimum required capabilities to access the backend are `read` and `level_0`.
 
 - Your server may run low on storage. AAM, under the hood, indexes the backend menu and temporarily stores the snapshot of the menu and submenus in the DB. If your server runs low on storage, it probably has issues writing any data to DB.
+
+- AAM version 6.9.13+ uses WordPress core transients to store temporary cache data about the backend menu. From our observations, some caching plugins allow administrators to turn off WordPress core transient functionality, which causes the issue for AAM. We strongly recommend keeping transients turned on as this improves WordPress core performance and helps plugins, like AAM, to stay compliant with its coding standards.

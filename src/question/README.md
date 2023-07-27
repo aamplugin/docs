@@ -16,7 +16,7 @@ next: false
 It is our ever-growing place for common questions and answers from many AAM users. **Please give your best effort to find the answers here first**, and if you are lost, then do not hesitate to submit [the contact form below](#contact-form).
 
 ::: tip The rule of thumb
-If you can not find the answer for your question within 10 mins then contact us. As an option, you can also schedule a quick Zoom call [here](https://calendly.com/aamplugin/15mins).
+If you can not find the answer for your question within 10 mins then contact us.
 :::
 
 ### How the Q&A is organized
